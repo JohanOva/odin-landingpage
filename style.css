@@ -1,0 +1,72 @@
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    flex: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    gap: 12px;
+    list-style-type: none;
+}
+
+
+
+.header, .introduction {
+    background-color: #1f2937;
+}
+
+.introduction {
+    padding: 40px;
+    display: flex;
+
+}
+
+.introduction * {
+    flex: 1;
+}
+
+.introduction-big {
+    font-size: 48px;
+    font-weight: 1400;
+    color: #F9FAF8;
+}
+
+.introduction-subtext {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
+
+
+
+
+button {
+    padding: 4px 16px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
